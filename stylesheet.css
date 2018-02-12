@@ -1,0 +1,31 @@
+
+/* windows */
+
+.root{
+	-fx-text-fill: white;
+	-fx-background-image :url("bg.jpg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover, auto;
+
+}
+
+
+/* labels */
+
+.label{
+	-fx-text-fill: white;
+	
+}
+
+
+/* Buttons */
+
+.button{
+	-fx-text-fill: white;
+	-fx-background-color: #0902e5;	
+}
+
+.button:hover{
+	-fx-background-color: #77a7f4;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
